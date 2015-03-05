@@ -5,7 +5,7 @@
 Summary:	Freescale VPU library
 Name:		imx-vpu
 Version:	5.4.27
-Release:	1
+Release:	2
 License:	Proprietary
 Group:		System/Libraries
 # downloaded and repackaged from:
@@ -45,10 +45,10 @@ Development files for Freescale VPU library.
 %makeinstall_std PLATFORM=IMX6Q DEST_DIR=%{buildroot}
 
 %files -n %{libname}
-%doc vpu/EULA.txt
 %{_libdir}/libvpu.so.%{major}*
 
 %files -n %{devname}
+%doc vpu/EULA.txt
 %{_libdir}/libvpu.so
 %{_libdir}/libvpu.a
 %{_includedir}/vpu_io.h
