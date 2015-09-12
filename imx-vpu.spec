@@ -5,7 +5,7 @@
 Summary:	Freescale VPU library
 Name:		imx-vpu
 Version:	5.4.28
-Release:	1
+Release:	2
 License:	Proprietary
 Group:		System/Libraries
 # downloaded and repackaged from:
