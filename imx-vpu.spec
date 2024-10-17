@@ -10,7 +10,7 @@ License:	Proprietary
 Group:		System/Libraries
 # downloaded and repackaged from:
 # http://www.freescale.com/lgfiles/NMG/MAD/YOCTO/imx-vpu-3.10.17-1.0.0.bin
-URL:		http://www.freescale.com
+URL:		https://www.freescale.com
 Source0:	%{name}-%{version}.tar.xz
 Patch0:		imx-vpu-lib-1.0.0-cflags.patch
 ExclusiveArch:	armv7hl armv7hnl
